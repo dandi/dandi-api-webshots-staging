@@ -23,7 +23,7 @@ import yaml
 
 log = logging.getLogger(__name__)
 
-ARCHIVE_GUI = "https://gui.dandiarchive.org"
+ARCHIVE_GUI = "https://gui-staging.dandiarchive.org"
 
 PAGES = ["landing", "edit-metadata", "view-data"]
 
