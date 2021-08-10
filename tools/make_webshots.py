@@ -65,7 +65,7 @@ def render_stats(dandiset: str, stats: List[LoadStat]) -> str:
 def get_dandisets():
     """Return a list of known dandisets"""
     from dandi.dandiapi import DandiAPIClient
-    client = DandiAPIClient('https://api.dandiarchive.org/api')
+    client = DandiAPIClient('https://api-staging.dandiarchive.org/api')
     dandisets = client.get('/dandisets', params={'page_size': 10000})
     return sorted(x['identifier'] for x in dandisets['results'])
 
