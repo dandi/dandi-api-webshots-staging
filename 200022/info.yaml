@@ -1,4 +1,10 @@
 times:
-  edit-metadata: 2.5553832799196243
-  landing: 0.023251928389072418
-  view-data: 0.12202803790569305
+  edit-metadata: "Message: unknown error: Element <button data-v-220b80f0=\"\" type=\"\
+    button\" class=\"v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light\
+    \ v-size--default\" id=\"view-edit-metadata\" style=\"width: 100%;\">...</button>\
+    \ is not clickable at point (84, 1340). Other element would receive the click:\
+    \ <div data-v-3113d48c=\"\" class=\"Cookie Cookie--bottom Cookie--blood-orange\"\
+    >...</div>\n  (Session info: headless chrome=73.0.3683.75)\n  (Driver info: chromedriver=73.0.3683.75,platform=Linux\
+    \ 4.19.0-0.bpo.9-amd64 x86_64)"
+  landing: 0.14258214086294174
+  view-data: 0.027832917869091034
